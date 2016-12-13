@@ -9,7 +9,7 @@
 	<div class="logo"><img src="images/images_src/fixed/logo.jpg" alt="logo" /></div>
 ```
 
-+ Here instead of adding this hr you can add use the bottom margin from the divabove to produce the same effect :)
++ Here instead of adding this `hr` you can add use the bottom margin from the div above to produce the same effect :)
 
 ```html
 
