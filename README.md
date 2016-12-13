@@ -25,7 +25,7 @@
 
 
 + Separate style rules with a blank line.
-+ Add a blank line
++ Indentation might seem a little bit too much, but it's not. People will see it.
 
 ```css
 	a {
@@ -33,7 +33,7 @@
 	  text-decoration: none;
 	  cursor: pointer;  
 	}
-	a:hover {
-		text-decoration: underline;
-	}
+		a:hover {
+			text-decoration: underline;
+		}
 ```
