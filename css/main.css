@@ -6,12 +6,12 @@
 }
 
 @font-face {
-  font-family: 'Open Sans Condensed';
+  font-family: "Open Sans Condensed";
   src: url(fonts/Open_Sans/OpenSans-Light.ttf);
 }
 
 body {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
   font-size: 14px;
   line-height: 1.2em;
   color: #2d3c49;
@@ -43,7 +43,7 @@ h3 {
 }
 
 header,
-hr,
+.divider,
 main,
 section {
   max-width: 60em;
@@ -97,6 +97,7 @@ a {
   text-decoration: none;
   cursor: pointer;  
 }
-  a:hover {
-    text-decoration: underline;
-  }
+
+a:hover {
+  text-decoration: underline;
+}
