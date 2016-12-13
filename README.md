@@ -28,5 +28,12 @@
 + Add a blank line
 
 ```css
+	a {
+	  color: inherit;
+	  text-decoration: none;
+	  cursor: pointer;  
+	}
 	a:hover {
+		text-decoration: underline;
+	}
 ```
