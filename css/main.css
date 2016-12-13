@@ -1,0 +1,102 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;  
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Open Sans Condensed';
+  src: url(fonts/Open_Sans/OpenSans-Light.ttf);
+}
+
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 14px;
+  line-height: 1.2em;
+  color: #2d3c49;
+  margin-top: 3em;
+  margin-bottom: 3em;  
+}
+
+h1,
+h2,
+h3 {
+  letter-spacing: 0.1em;
+}
+
+h1 {  
+  font-weight: lighter;  
+  font-size: 2.5em;
+}
+
+h2 {
+  margin-top: 1em;  
+  width: 100%;
+  color: #7d97ad;
+  font-size: 2.3em;
+}
+
+h3 {  
+  text-transform: uppercase;
+  font-size: 2.2em;
+}
+
+header,
+hr,
+main,
+section {
+  max-width: 60em;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main img {
+  width: 100%;
+}
+
+section img {
+ width: 100%; 
+}
+
+.logo {
+  width: 30%;
+}
+
+.hero {
+  width: 70%;
+  text-align: right;
+  text-transform: uppercase;
+  padding-right: 0.5em;
+}
+
+.hero p {
+  font-size: 1.2em;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+}
+
+.divider {
+  border: 0.2em solid #7d97ad;
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+}
+
+.projects {
+  justify-content: space-between;
+}
+
+article {
+  width: calc((100% - 3em) / 3);
+  text-align: center;  
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;  
+}
+  a:hover {
+    text-decoration: underline;
+  }

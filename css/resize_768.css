@@ -1,0 +1,21 @@
+@media screen and (min-width: 413px) and (max-width: 768px) {
+	body {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	h1,
+	h2,
+	h3 {
+		letter-spacing: 0;
+	}
+
+	article {
+		width: 100%;
+		margin-bottom: 0.5em;
+	}
+	
+	article img {
+	  width: 60%;
+	}
+}
