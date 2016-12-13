@@ -20,6 +20,7 @@
 + Prefer to use double quotes instead of single ones.
 
 ```css
+
 	 font-family: 'Open Sans Condensed', sans-serif;
 ```
 
